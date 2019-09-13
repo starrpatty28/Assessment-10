@@ -2,7 +2,7 @@
 
 ## Deploying to Heroku
 
-Clich [here](https://eventonica-recat-api.herokuapp.com/) for live site
+Clich [here](https://eventonica-recat-api.herokuapp.com/) for live site to the Evontonica Events app!
 
 ## Recursion
 
@@ -83,7 +83,7 @@ _Some potential impacts could be to weigh the cost and benefits of refactoring c
 
 **Describe the uses of these functional programming methods:**<br>
 
-### map<br>
+### Map<br>
 _Simple key value pair data structure_
 
 ```
@@ -93,7 +93,7 @@ person.set('name', 'Ryan');
 person.set('age', 31);
 console.log(person.get('age'));
 ```
-### filter<br>
+### Filter<br>
 
 _The purpose of the filter is to return a specified subset of the original array elements. When you call filter on an array and a function, it uses the function to check to see if the elements in the array meet a certain condition. If it does meet the condition, it keeps it in the array; if it does not meet the condition, it filters it out of the array._
 
@@ -101,7 +101,7 @@ _The purpose of the filter is to return a specified subset of the original array
 let validRestaurants = allRestaurants.filter(restaurant => restaurant.openingTime <= 7)
 ```
 
-### reduce<br>
+### Reduce<br>
 _The purpose of reduce is to process elements of an array in a way that every element will be incorporated into the final solution. When you call reduce on an array and a function, it applies the function to every element of the array, while keeping track of a previous value._
 ```
 let seasonTwoEpisodes = allEspisodes.filter((episode) => episode.season == 1)
@@ -113,7 +113,7 @@ let seasonTwoEpisodes = allEspisodes.filter((episode) => episode.season == 1)
     let total = seasonTwoEpisodes.reduce(addDuration, 0)
 ```
 
-### mutation<br>
+### Mutation<br>
 _Something you may have noticed is that when the new values were calculated from the original arrays, the old array values stayed unchanged. Therefore, they are considered to be "non-mutating"._
 
 ```
@@ -129,7 +129,7 @@ let intArray = [1, 2, 3]
 
 ## Optimization<br>
 
-### Explain caching<br>
+### Explain Caching<br>
 
 _Caching is temporarily saving small chunks of data locally. Caching is useful when your reusing data multiple times in your program. Grabbing it from the API everytime would be slow it down but it getting it locally from the cache is faster. **Example below of Accesing a slow API**_
 
@@ -144,7 +144,7 @@ return censusData
 }
 ```
 
-### Explain minification<br>
+### Explain Minification<br>
 
 _Making Javascript files smaller without changing the logic in them, for example: white spaces are removed, variable names are shortened. Large files take longer to download. Minification makes the files smaller.
 
