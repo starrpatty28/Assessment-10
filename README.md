@@ -38,8 +38,16 @@ let fun = function (x) {
 };
 ```
 ### Agile Development
-- [ ] Why is Agile so popular in the software development world?
-- [ ] Explain the difference between plan-driven and Agile development?
+
+- Why is Agile so popular in the software development world? 
+_I beleive **Agile Development** is popular because its customer its flexible, the choice of Software working over documentation the having customer collaboration, and its more customer driven development._
+
+- Explain the difference between plan-driven and Agile development?
+
+_The idea behind **Plan-Driven** is that the better the planning and the better you understand the plan, the better the execution of the plan and the outcome. Plan-driven development is often called sequential or waterfall -> because tasks are performed in a sequence. E.g. you first write the requirements, you complete the design, you implement the design, then you do the testing and ship the product._
+
+_More specifically, **Agile** is a set of values and principles, which describe a culture in which change is welcome and the customer is the focus of the work. Agile advocates adaptive planning, iterative and incremental development, close collaboration with the customer, and cross-functional teams to build working software. Agile values and principles, as outlined in the Agile Manifesto, underpin a lot of software development methods and practices, such as Scrum or Extreme Programming (XP).
+
 - [ ] What are some of the most important Agile values and principles?
 - [ ] Name and explain the purpose of at least 2 Agile methods or tools.
 
