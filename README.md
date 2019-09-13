@@ -1,21 +1,5 @@
 # Assessment #10: Advanced Methods
 
-### Languages
-- JS
-
-### Tools & Methods
-- Agile Project Management
-- GitHub Gist
-- Heroku
-
-### Primary Goals
-Demonstrate understanding of Week 10 concepts.
-
-### Overview
-In this project, you will create a text file and describe this week's concepts in your own words. You have 2 hours.
-
-## Basic Requirements
-
 ### Deploying to Heroku
 
 Clich [here](https://eventonica-recat-api.herokuapp.com/) for live site
