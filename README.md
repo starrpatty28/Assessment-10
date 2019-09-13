@@ -23,13 +23,15 @@ Memoization is a programming technique with the purpose of improving the functio
 
 Memoization is best used on **Pure Functions** With pure functions, each time the same input value is provided it will return the same output value. Please see example below of **Pure Function**
 
-```let fun = function (x) {
+```
+let fun = function (x) {
   return x * x;
 };
 ```
 **Not Pure Function*** relies on data outside of itself and that data can change and affect the results
 
-```let num = 5;
+```
+let num = 5;
 
 let fun = function (x) {
   return num * x;
