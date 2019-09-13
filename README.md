@@ -8,7 +8,8 @@ Clich [here](https://eventonica-recat-api.herokuapp.com/) for live site
 
 Recursion is a function calling itself, until it cant call itself anymore. In the below example, the function will continue to loop throuh until it reaches 0.
 
-```function countDownFrom (num) {
+```
+function countDownFrom (num) {
   if (num === 0) return;     
   countDownFrom(num -1);
 
