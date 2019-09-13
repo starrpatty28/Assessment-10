@@ -41,7 +41,7 @@ let fun = function (x) {
 
 ## Why is Agile so popular in the software development world?<br>
 
-_I beleive **Agile Development** is popular because its customer its flexible, the choice of Software working over documentation the having customer collaboration, and its more customer driven development._
+_I beleive **Agile Development** is popular because its customer driven and its flexible. The choice of Software working over documentation, having customer collaboration, and its more customer driven development._
 
 ## Explain the difference between plan-driven and Agile development?<br>
 
@@ -65,18 +65,26 @@ _Feature-driven development (FDD) is an iterative and incremental software devel
 
 ### Refactoring<br>
 
+## What is the point of refactoring?<br>
 
-## What is the point of refactoring?
+_**Refactoring** is the process of improving code quality by: Making it easier to read, Making it easier to extend / change later, Not changing the original behavior of the code. It reduces **Technical Dept** which is the cost of having to repeat work now because an easy, quick solution was chosen in the past, instead of a better solution that would have taken longer to complete.
 
-- [ ] When should you refactor?  When shouldn't you?
-- [ ] What are some potential impacts of refactoring?
+## When should you refactor?  When shouldn't you?<br>
+
+_Refactoring can be done at any time! You should refactor when writing new code, when fixing a bug, during code review._<br> 
+
+_When you shouldnt refactor is when you havecomplicated code that was written for a reason or a significant amount of time was already spent trying to refactor with little results. When code in production has already gone through years of use in the real world and is fully tested._
+
+## What are some potential impacts of refactoring?<br>
+
+_Some potential impacts could be to weigh the cost and benefits of refactoring code. You may find that your refactored code could lead to mistakes and many bugs to fix._
 
 ### Functional Programming
-Describe the uses of these functional programming methods:
-- [ ] map
-- [ ] filter
-- [ ] reduce
-- [ ] mutation
+Describe the uses of these functional programming methods:<br>
+## map
+## filter
+## reduce
+## mutation
 
 ### Optimization
 - [ ] explain caching
