@@ -146,6 +146,6 @@ return censusData
 
 ### Explain Minification<br>
 
-_Making Javascript files smaller without changing the logic in them, for example: white spaces are removed, variable names are shortened. Large files take longer to download. Minification makes the files smaller.
+_Making Javascript files smaller without changing the logic in them, for example: white spaces are removed, variable names are shortened. Large files take longer to download. Minification makes the files smaller._
 
 
